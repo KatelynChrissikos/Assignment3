@@ -1,0 +1,157 @@
+doctype html
+html
+
+  head
+
+  meta(charset="utf-8")
+
+  meta(http-equiv="X-UA-Compatible", content="IE=edge")
+
+  title Katelyn Chrissikos
+
+  meta(name="description", content="Hello World")
+
+  meta(name="viewport", content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui")
+
+  link(rel="stylesheet", href="assets/styles/main.css", type="text/css")
+
+  link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800")
+
+  link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Lobster")
+
+  body
+
+  header.header
+
+    div.wrapper
+      img(src='assets/images/logo.png', alt='')
+      ul.nav
+
+        li: a.active(href="/") Home
+
+        li: a(href="/about") About
+
+        li: a(href="/portfolio") Portfolio
+
+        li: a(href="/contact") Contact
+
+  div.main
+
+    div.wrapper
+
+      div.tagline
+        
+        h1 Hello my name is
+        h2 Katelyn Chrissikos
+        h3 I'm a Web Designer with a coding background!
+        
+        hr
+
+        ul.menu
+
+          li: a#school(href="/") School
+
+          li: a#work(href="/") Work
+
+          li: a#skills(href="/") Skills
+
+          li: a#resume(href="/") Resume
+        
+        h4 Click a button to find out about me
+
+        div.school 
+          p I am currently in my third and final year of the Web Design and Interactive Media program offered at Humber College. This program has allowed me to learn the skills of both a designer and developer.  This program has also  allocated me with a vast knowledge in UX/UI and App development and design.
+        
+        div.work
+          p Currently I am working for a small SEO company as a Lead Designer.  The name of the company is called Qode Media and it offers full service web work including design, development and Search Engine Optimization.
+
+          a.btn(href="http://www.qodemedia.com/" target="_blank") Check Out Qode Media
+
+
+        div.skills
+          p My skills are as follows:
+
+          ul.col
+
+            li Photoshop
+
+            li Illustrator
+
+            li HTML
+
+            li CSS
+
+            li Javascript (HAR HAR)
+
+            li After Effects
+          
+          ul.col
+
+            li Project Management
+
+            li JQuery
+
+            li Sass
+
+            li Less
+
+            li Jade
+
+            li UX / UI Design
+          
+          ul.col
+
+            li ISO App Development
+
+            li Web / App Design
+
+            li Branding
+
+            li Logo Design
+
+            li Graphic Design
+
+            li --
+        
+        div.resume
+          p For more information on my skills and work experience please take a look at my resume.  If you are interested in seeing some of my work please check out my portfolio.
+
+          a.btn(href="katelync-resume.pdf" target="_blank") My Resume
+
+
+
+  footer.footer
+    div.wrapper
+      p Katelyn Chrissikos Copyright &copy; 2014
+
+  // -----------------------------
+  // Templates
+  // -----------------------------
+
+  script#home(type="text/template").
+    <div class="page home">{{{content}}}</div>
+
+  script#about(type="text/template").
+    <div class="page about">{{{content}}}</div>
+
+  script#contact(type="text/template").
+    <div class="page contact">{{{content}}}</div>
+
+  // -----------------------------
+  // Libraries
+  // -----------------------------
+
+  script(type="text/javascript", src="http://code.jquery.com/jquery-2.1.1.min.js")
+
+  script(type="text/javascript", src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore.js")
+
+  script(type="text/javascript", src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone.js")
+
+  script(type="text/javascript", src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js")
+
+
+  // -----------------------------
+  // Application
+  // -----------------------------
+
+  script(type="text/javascript", src="assets/scripts/main.js")

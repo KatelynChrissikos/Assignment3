@@ -1,0 +1,110 @@
+doctype html
+html
+
+  head
+
+  meta(charset="utf-8")
+
+  meta(http-equiv="X-UA-Compatible", content="IE=edge")
+
+  title Contact
+
+  meta(name="description", content="Hello World")
+
+  meta(name="viewport", content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui")
+
+  link(rel="stylesheet", href="assets/styles/main.css", type="text/css")
+
+  link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800")
+
+  link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Lobster")
+
+  body
+
+  header.header
+
+    div.wrapper
+      img(src='assets/images/logo.png', alt='')
+      ul.nav
+
+        li: a(href="/") Home
+
+        li: a(href="/about") About
+
+        li: a(href="/portfolio") Portfolio
+
+        li: a.active(href="/contact") Contact
+
+  div.innerpages
+
+    div.wrapper
+      
+      div.section
+
+        h1.headers Contact
+
+        form
+
+          input(name='name', type='text', placeholder='Name', id='name')
+
+          input(name='name', type='text', placeholder='Email', id='email')
+
+          input(name='name', type='text', placeholder='Subject', id='subject')
+
+          textarea(placeholder='Leave Me A Message!' name='message', cols='40', rows='10', id='message')
+
+          a.btn(href="/" target="_blank") Submit
+        
+        div.contact
+
+          p To reach me for any projects or inquires please feel free to contact me at chrissikos@yahoo.ca
+
+          div.icons
+            h4 Connect With Me
+            img.social(src='assets/images/fb-icon.png', alt='')
+            img.social(src='assets/images/tw-icon.png', alt='')
+            img.social(src='assets/images/li-icon.png', alt='')
+
+        
+          
+
+
+      
+
+
+
+  footer.footer
+    div.wrapper
+      p Katelyn Chrissikos Copyright &copy; 2014
+
+  // -----------------------------
+  // Templates
+  // -----------------------------
+
+  script#home(type="text/template").
+    <div class="page home">{{{content}}}</div>
+
+  script#about(type="text/template").
+    <div class="page about">{{{content}}}</div>
+
+  script#contact(type="text/template").
+    <div class="page contact">{{{content}}}</div>
+
+  // -----------------------------
+  // Libraries
+  // -----------------------------
+
+  script(type="text/javascript", src="http://code.jquery.com/jquery-2.1.1.min.js")
+
+  script(type="text/javascript", src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore.js")
+
+  script(type="text/javascript", src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone.js")
+
+  script(type="text/javascript", src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js")
+
+
+  // -----------------------------
+  // Application
+  // -----------------------------
+
+  script(type="text/javascript", src="assets/scripts/main.js")

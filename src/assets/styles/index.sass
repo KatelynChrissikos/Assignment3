@@ -1,0 +1,375 @@
+// -----------------------------
+// Variables
+// -----------------------------
+
+$color: #555
+$lightColor: #efefef
+$darkColor: #333
+$teal: #3c7382
+
+$font1: "Open Sans", sans-serif
+$font2: "Lobster", cursive
+
+// -----------------------------
+// Global Styles
+// -----------------------------
+*
+  box-sizing: border-box
+
+body
+  padding: 0
+  margin: 0
+  font-size: 14px
+  font-family: sans-serif
+  color: $color
+
+.wrapper
+  
+  max-width: 1040px
+  margin: 0 auto
+
+a
+  text-decoration: none
+  display: inline-block
+  color: $color
+
+h1
+  font-family: $font1
+  font-size: 1.7em
+  font-weight: 400
+  color: #852968
+  padding: 0
+  margin: 0
+
+h2
+  font-family: $font2
+  font-size: 6em
+  font-weight: 300
+  color: #ad2255
+  padding: 0
+  margin: -8px 0 0 0
+
+h3
+  font-family: $font1
+  font-size: 1.5em
+  font-weight: 400
+  color: #852968
+  padding: 20px 0 0 0
+  margin: -16px 0 20px 0
+
+h1.headers
+  font-family: $font1
+  font-size: 2em
+  font-weight: 300
+  color: #852968
+  padding: 0 0 10px 0
+  margin: 0 0 10px 0
+  text-transform: uppercase
+  text-align: left
+  border-bottom: 1px dashed #a459e9
+
+hr
+  margin: 20px 0 0 0
+  border-top: 1px dashed #cdcdcd
+
+
+// -----------------------------
+// App Specific
+// -----------------------------
+
+.header, .main, .footer
+  width: 100%
+  display: block
+
+// -----------------------------
+// Header
+// -----------------------------
+
+.header
+  width:100%
+  padding: 7px 0 5px 0
+  border-bottom: 4px solid $teal
+  
+
+// -----------------------------
+// Navigation
+// -----------------------------
+
+.nav
+  margin: 49px 0 0 0
+  padding: 0
+  float: right
+
+  li
+    margin: 0 0 0 3px
+    display: inline-block
+    list-style: none
+
+    a
+      padding: 10px 25px 10px 25px
+      display: block
+      color:white;
+      background: $teal
+      font-family: $font1
+    
+    .active:hover
+      background: #0B486B
+    
+    a:hover
+      background: #3B8686
+
+    .active
+      background: #0B486B
+
+
+// -----------------------------
+// Main
+// -----------------------------
+
+.main
+  padding: 20px
+  background-image: url(../images/bg.png)
+  background-position: 0 -270px
+  background-size: cover
+  height: 550px
+
+  .tagline
+    padding: 20px
+    width: 70%
+    margin: 0 auto
+    text-align: center
+    margin-top: 20px
+    background: rgba(255, 255, 255, 0.8);
+    overflow: hidden
+
+    ul.menu
+      padding: 0
+      float: left
+      margin: 20px 0 0 0
+      width: 20%
+
+    li
+      display: block
+      margin: 0 0 10px 0
+      list-style: none
+
+      a
+        padding: 10px
+        display: block
+        color:white;
+        background: $teal
+        font-family: $font1
+
+div.school, div.work, div.skills, div.resume
+  width: 76%
+  height: 185px
+  float: right
+  text-align: left
+  margin-top: 20px
+
+  p
+    margin: -8px 0 0 0
+    font-size: 1.2em
+    letter-spacing: .5px
+    line-height: 30px
+
+  a.btn
+    display: block
+    width: 50%
+    background: #533386
+    text-align: center
+    float: right
+    margin-top: 20px
+    padding: 10px 15px
+    border-radius: 10px
+    color: white
+  
+  a.btn:hover
+    background: #a159e9
+  
+ul.col
+  float: left
+  width: 33.3%
+  display: inline-block
+  padding: 0 13px
+  border-left: 2px solid #7cd9ec
+  list-style-type: none
+
+.innerpages
+  padding: 20px
+  background-image: url(../images/bg.png)
+  background-position: 0 0
+  background-size: 100%
+  padding-bottom: 50px
+
+.section
+  padding: 20px
+  width: 80%
+  margin: 0 auto
+  text-align: left
+  margin-top: 20px
+  background: rgba(255, 255, 255, 0.8)
+  overflow: hidden
+
+  div.row 
+    overflow: hidden
+    padding: 0 0 10px 0
+    margin-bottom: 10px
+    border-bottom: 1px dotted #c6c6c6
+  
+  div.rowfix 
+    overflow: hidden
+    padding: 0 0 10px 0
+    margin-bottom: 10px
+
+  p
+    font-size: 1.2em
+    letter-spacing: .5px
+    line-height: 30px
+    margin: 5px 0 10px 0
+  
+  p.title
+    
+    font-weight: 700
+    margin: 0
+    text-transform: uppercase
+  
+  p.details
+    
+    margin: 0
+    float: left
+
+  p.date
+    
+    margin: -1px 0 0 0
+    float: right    
+  
+form
+  width: 40%
+  display: block
+  float: left
+
+  input
+    width: 100%
+    padding: 10px 20px 10px 10px
+    margin-bottom: 10px
+  
+  textarea
+    width: 100%
+    padding: 10px 20px 10px 10px
+    margin-bottom: 10px
+  
+  a.btn
+    display: block
+    width: 50%
+    background: #533386
+    text-align: center
+    float: right
+    padding: 10px 15px
+    border-radius: 10px
+    color: white
+  
+  a.btn:hover
+    background: #a159e9
+
+  
+div.contact p
+
+  padding: 0 20px
+  width: 60%
+  float: right
+  margin-top: -5px
+
+div.contact
+  text-align: center
+
+div.icons
+  padding-top: 80px
+
+img.social  
+  width: 80px
+  margin: 10px 20px 0 20px
+
+div#work  
+  width: 100%
+  text-align: center
+  margin: 0 auto
+
+a.item  
+  
+  width: 30%
+  height: 200px
+  display: inline-block
+  margin: 10px
+  position: relative
+  overflow: hidden
+
+a.item img 
+  
+  position: absolute
+  top: 0
+  left: 0
+
+a.item p 
+
+  position: absolute
+  width: 100%
+  background: rgba(0, 0, 0, 0.5)
+  color: white
+  bottom: -10px
+  padding: 5px 0
+  font-size: 1em
+
+a.item:hover > p, a.item:hover > p.desc
+
+  background: rgba(0, 0, 0, 0.8)
+
+
+a.item p.desc
+
+  position: absolute
+  width: 100%
+  background: rgba(0, 0, 0, 0.5)
+  color: white
+  top: -5px
+  height: 30px
+  padding: 0 0 0 10px
+  font-size: .8em
+  text-align: left
+
+
+a.live  
+
+  float: right
+  color: #ad2255
+  text-decoration: underline
+
+a.live:hover 
+
+  color: #3c7382
+
+p.design 
+  
+  font-style: italic
+  font-size: .8em
+  color: #ad2255
+
+img.sshot
+  width: 100%
+  border: 1px solid $lightColor
+
+// -----------------------------
+// Footer
+// -----------------------------
+
+.footer
+  padding: 10px 0
+  background: $lightColor
+  position: fixed
+  bottom: 0
+
+  p
+    margin: 0
+    padding: 0
+    font-size: 12px
+
