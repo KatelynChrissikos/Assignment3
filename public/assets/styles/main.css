@@ -1,0 +1,353 @@
+/* line 10, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+* {
+  box-sizing: border-box; }
+
+/* line 13, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #555; }
+
+/* line 20, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+.wrapper {
+  max-width: 1040px;
+  margin: 0 auto; }
+
+/* line 25, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #555; }
+
+/* line 30, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.7em;
+  font-weight: 400;
+  color: #852968;
+  padding: 0;
+  margin: 0; }
+
+/* line 38, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+h2 {
+  font-family: "Lobster", cursive;
+  font-size: 6em;
+  font-weight: 300;
+  color: #ad2255;
+  padding: 0;
+  margin: -8px 0 0 0; }
+
+/* line 46, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #852968;
+  padding: 20px 0 0 0;
+  margin: -16px 0 20px 0; }
+
+/* line 54, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+h1.headers {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+  color: #852968;
+  padding: 0 0 10px 0;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+  text-align: left;
+  border-bottom: 1px dashed #a459e9; }
+
+/* line 65, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+hr {
+  margin: 20px 0 0 0;
+  border-top: 1px dashed #cdcdcd; }
+
+/* line 71, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+.header, .main, .footer {
+  width: 100%;
+  display: block; }
+
+/* line 76, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+.header {
+  width: 100%;
+  padding: 7px 0 5px 0;
+  border-bottom: 4px solid #3c7382; }
+
+/* line 83, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+.nav {
+  margin: 49px 0 0 0;
+  padding: 0;
+  float: right; }
+  /* line 88, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  .nav li {
+    margin: 0 0 0 3px;
+    display: inline-block;
+    list-style: none; }
+    /* line 93, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+    .nav li a {
+      padding: 10px 25px 10px 25px;
+      display: block;
+      color: white;
+      background: #3c7382;
+      font-family: "Open Sans", sans-serif; }
+    /* line 100, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+    .nav li .active:hover {
+      background: #0B486B; }
+    /* line 103, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+    .nav li a:hover {
+      background: #3B8686; }
+    /* line 106, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+    .nav li .active {
+      background: #0B486B; }
+
+/* line 111, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+.main {
+  padding: 20px;
+  background-image: url(../images/bg.png);
+  background-position: 0 -270px;
+  background-size: cover;
+  height: 550px; }
+  /* line 118, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  .main .tagline {
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    overflow: hidden; }
+    /* line 127, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+    .main .tagline ul.menu {
+      padding: 0;
+      float: left;
+      margin: 20px 0 0 0;
+      width: 20%; }
+    /* line 133, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+    .main .tagline li {
+      display: block;
+      margin: 0 0 10px 0;
+      list-style: none; }
+      /* line 138, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+      .main .tagline li a {
+        padding: 10px;
+        display: block;
+        color: white;
+        background: #3c7382;
+        font-family: "Open Sans", sans-serif; }
+
+/* line 145, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+div.school, div.work, div.skills, div.resume {
+  width: 76%;
+  height: 185px;
+  float: right;
+  text-align: left;
+  margin-top: 20px; }
+  /* line 152, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  div.school p, div.work p, div.skills p, div.resume p {
+    margin: -8px 0 0 0;
+    font-size: 1.2em;
+    letter-spacing: 0.5px;
+    line-height: 30px; }
+  /* line 158, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  div.school a.btn, div.work a.btn, div.skills a.btn, div.resume a.btn {
+    display: block;
+    width: 50%;
+    background: #533386;
+    text-align: center;
+    float: right;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white; }
+  /* line 169, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  div.school a.btn:hover, div.work a.btn:hover, div.skills a.btn:hover, div.resume a.btn:hover {
+    background: #a159e9; }
+
+/* line 172, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+ul.col {
+  float: left;
+  width: 33.3%;
+  display: inline-block;
+  padding: 0 13px;
+  border-left: 2px solid #7cd9ec;
+  list-style-type: none; }
+
+/* line 180, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+.innerpages {
+  padding: 20px;
+  background-image: url(../images/bg.png);
+  background-position: 0 0;
+  background-size: 100%;
+  padding-bottom: 50px; }
+
+/* line 187, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+.section {
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  overflow: hidden; }
+  /* line 196, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  .section div.row {
+    overflow: hidden;
+    padding: 0 0 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #c6c6c6; }
+  /* line 202, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  .section div.rowfix {
+    overflow: hidden;
+    padding: 0 0 10px 0;
+    margin-bottom: 10px; }
+  /* line 207, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  .section p {
+    font-size: 1.2em;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    margin: 5px 0 10px 0; }
+  /* line 213, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  .section p.title {
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase; }
+  /* line 219, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  .section p.details {
+    margin: 0;
+    float: left; }
+  /* line 224, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  .section p.date {
+    margin: -1px 0 0 0;
+    float: right; }
+
+/* line 229, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+form {
+  width: 40%;
+  display: block;
+  float: left; }
+  /* line 234, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  form input {
+    width: 100%;
+    padding: 10px 20px 10px 10px;
+    margin-bottom: 10px; }
+  /* line 239, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  form textarea {
+    width: 100%;
+    padding: 10px 20px 10px 10px;
+    margin-bottom: 10px; }
+  /* line 244, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  form a.btn {
+    display: block;
+    width: 50%;
+    background: #533386;
+    text-align: center;
+    float: right;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white; }
+  /* line 254, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  form a.btn:hover {
+    background: #a159e9; }
+
+/* line 258, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+div.contact p {
+  padding: 0 20px;
+  width: 60%;
+  float: right;
+  margin-top: -5px; }
+
+/* line 265, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+div.contact {
+  text-align: center; }
+
+/* line 268, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+div.icons {
+  padding-top: 80px; }
+
+/* line 271, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+img.social {
+  width: 80px;
+  margin: 10px 20px 0 20px; }
+
+/* line 275, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+div#work {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto; }
+
+/* line 280, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+a.item {
+  width: 30%;
+  height: 200px;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  overflow: hidden; }
+
+/* line 289, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+a.item img {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+/* line 295, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+a.item p {
+  position: absolute;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  bottom: -10px;
+  padding: 5px 0;
+  font-size: 1em; }
+
+/* line 305, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+a.item:hover > p, a.item:hover > p.desc {
+  background: rgba(0, 0, 0, 0.8); }
+
+/* line 310, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+a.item p.desc {
+  position: absolute;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  top: -5px;
+  height: 30px;
+  padding: 0 0 0 10px;
+  font-size: 0.8em;
+  text-align: left; }
+
+/* line 323, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+a.live {
+  float: right;
+  color: #ad2255;
+  text-decoration: underline; }
+
+/* line 329, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+a.live:hover {
+  color: #3c7382; }
+
+/* line 333, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+p.design {
+  font-style: italic;
+  font-size: 0.8em;
+  color: #ad2255; }
+
+/* line 339, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+img.sshot {
+  width: 100%;
+  border: 1px solid #efefef; }
+
+/* line 344, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+.footer {
+  padding: 10px 0;
+  background: #efefef;
+  position: fixed;
+  bottom: 0; }
+  /* line 350, C:/Users/Sterry/Desktop/spa-boilerplate/src/assets/styles/index.sass */
+  .footer p {
+    margin: 0;
+    padding: 0;
+    font-size: 12px; }
